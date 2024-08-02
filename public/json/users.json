@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Alice",
+    "score": 1480,
+    "niveau": 5,
+    "avatar": 2
+  },
+  {
+    "name": "Bob",
+    "score": 78,
+    "niveau": 3,
+    "avatar": 1
+  },
+  {
+    "name": "Charlie",
+    "score": 85,
+    "niveau": 4,
+    "avatar": 3
+  },
+  {
+    "name": "Diana",
+    "score": 90,
+    "niveau": 5,
+    "avatar": 4
+  },
+  {
+    "name": "Gaëtan",
+    "score": 235,
+    "niveau": 3,
+    "avatar": 1
+  }
+]

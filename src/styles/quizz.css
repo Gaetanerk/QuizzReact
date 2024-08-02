@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #3B2A7F 0%, #EEF3FB 56%);
+    font-family: 'Viga', sans-serif;
+}
+
+.btnCreateUser {
+    border-radius: 20px;
+    background-color: #3B2A7F;
+    color: #FFFFFF;
+    width: 200px;
+    height: 40px;
+    border-color: transparent;
+}
+
+.btnCreateUser:hover {
+    background-color: #FFFFFF;
+    color: #3B2A7F;
+    border-color: #3B2A7F;
+    font-weight: bold;
+}
+
+.btnCreateUser:active {
+    transform: scale(0.95);
+}
+
+/*HOME*/
+
+#logoTitle {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#logoTitle img {
+    width: 1000px;
+}
+
+#logInOrCreate {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#userSelect {
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #3B2A7F;
+    color: #3B2A7F;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+
+#userSelect:focus {
+    border-color: #3B2A7F;
+    outline: none;
+}
+
+#userSelect option {
+    background-color: #FFFFFF;
+    color: #3B2A7F;
+}
+
+#logInOrCreate p {
+    margin: 100px 0;
+    font-weight: bold;
+}
+
+/*CREATE USER*/
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.logoNav {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.btnHome {
+    border-radius: 20px;
+    background-color: #3B2A7F;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    border-color: transparent;
+}
+
+.avatarSelection {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+  
+.avatarOption {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+  
+.avatarCircle {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #3B2A7F;
+    transition: border-color 0.3s ease;
+    margin-bottom: 50px;
+}
+  
+.avatarCircle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+  
+.avatarOption input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #3B2A7F;
+    appearance: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+  
+.avatarOption input[type="radio"]:checked {
+    background-color: #3B2A7F;
+    border-color: #3B2A7F;
+}
+
+#formCreateUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#formCreateUser input {
+    margin: 10px 0 50px 0;
+    border-radius: 20px;
+    border: 2px solid #3B2A7F;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/*GAME*/
+#userInfo {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#userInfo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #3B2A7F;
+}
+
+#userInfo div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#level, #score {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+#level {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0 #3B2A7F, -1px -1px 0 #3B2A7F, 1px -1px 0 #3B2A7F, -1px 1px 0 #3B2A7F;
+}
+
+#score {
+    color: #3B2A7F;
+}
+
+#question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
+    font-size: 30px;
+    color: #3B2A7F;
+    font-family: Viga;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    font-family: Viga;
+}
+
+#answers button {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-shadow: 1px 1px 0 #3B2A7F, -1px -1px 0 #3B2A7F, 1px -1px 0 #3B2A7F, -1px 1px 0 #3B2A7F;
+}
+
+#answers button:hover {
+    transform: scale(1.1);
+}
+
+#answers button:active {
+    transform: scale(0.95);
+}
